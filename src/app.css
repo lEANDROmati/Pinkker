@@ -1,0 +1,96 @@
+main{
+    height: 100vh;
+    background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
+  
+  }
+  
+  .container{
+    max-width: 400px;
+      display: flex;
+      height: 95vh;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      font-family: system-ui;
+  }
+  
+  form{
+    background-color: #151515b4;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    opacity: 1;
+    box-shadow: rgb(97 67 90) 0px 7px 29px 0px;
+    
+    
+  }
+  input{
+    width: 90%;
+    height: 48px;
+    color: #ff60b2;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+    background: rgb(31, 30, 30);
+    box-shadow: rgb(52 23 46) 0px 7px 29px 0px;
+    font-family: "Poppins";
+    color: #fff;
+    font-size: 16px;
+    padding: 15px;
+    text-align: center;
+    outline: none;
+  }
+  
+  
+  
+  button{
+    width: 150px;
+    height: 35px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #9d7c8d47;
+    font-family: "Poppins";
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 5px;
+    font-family: system-ui;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    transition: 0.8s;
+  }
+  
+  button:hover{
+    
+    background-color:#ff60953d;
+  }
+  
+  span{
+    background:none;
+    color: aliceblue;
+    text-align: center;
+    padding: 0 30px;
+    margin-top: 30px;
+   
+  }
+  .footer{
+    text-align: center;
+    
+  }
+  .textFooter{
+    color: #ff60b2;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .error{
+    border: solid;
+    color: #ff7f7f85;
+  }

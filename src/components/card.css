@@ -1,0 +1,57 @@
+.card {
+    margin: 20px;
+    padding: 20px;
+    max-width: 450px;
+    min-height: 300px;
+
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(206, 15, 158, 0.637);
+    transition: all 0.8s;
+  }
+  
+  
+    
+  
+  .card-container{
+    background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .parrafo-card{
+    background-color: black;
+    padding: 10px;
+    color: rgba(240, 248, 255, 0.781);
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 20px 0;
+  }
+
+ 
+  .fecha{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI';
+    text-align: center;
+    margin-top: 45px;
+  }
+
+  ul{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI';
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  
+
+  
+  .card-5 {
+    background-color: #ffffffde;
+  }
+  
+  @media (max-width: 1600px) {
+    .cards {
+      justify-content: center;
+    }
+  }
+  
